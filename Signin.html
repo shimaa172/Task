@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Signin</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+
+<body>
+    <span class="d-none" id="username"></span>
+    <div class="container">
+        <div class="group">
+            <h1>Signin</h1>
+
+            <input id="signinEmail" class="form-control " placeholder="Enter your email" type="text">
+            <input id="signinPassword" class="form-control " placeholder="Enter your password" type="password">
+            <p id="incorrect"></p>
+
+            <a id="login_btn"><button onclick="login()" class="btn ">Login</button></a>
+            <p class="text-white">Don’t have an account? <a class="text-white" href="index.html">Sign Up</a></p>
+
+        </div>
+    </div>
+    
+    <!-- Main Js File -->
+    <script src='js/main.js'></script>
+</body>
+
+</html>

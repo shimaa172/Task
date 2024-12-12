@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+
+<body>
+    <span id="username"></span>
+    <div class="container">
+        <div class="group">
+            <h1>Register</h1>
+
+            <input id="signupFirstName" class="form-control" placeholder="Enter your first name" type="text">
+            <input id="signupLastName" class="form-control" placeholder="Enter your last name" type="text">
+            <input id="signupEmail" class="form-control" placeholder="Enter your email" type="email">
+
+            <input id="signupPassword" class="form-control" placeholder="Enter  password" type="password">
+            <p id="exist"></p>
+
+            <button onclick=" signUp()" class="btn">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="Signin.html">Signin</a></p>
+        </div>
+    </div>
+
+    <!-- Main Js File -->
+    <script src='js/main.js'></script>
+
+</body>
+
+</html>

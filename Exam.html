@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exam</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+
+</head>
+
+<body id="home">
+    <div id="exam-container">
+        <h2>Welcome to the Exam!</h2>
+        <div id="question-display">
+            <p class="question-number"></p>
+            <p id="question"></p>
+            <div id="options"></div>
+        </div>
+        <button id="next-button" onclick="nextQuestion()">Next Question</button>
+        <button id="submit-button" onclick="submitExam()" style="display: none;">Submit Exam</button>
+        <button id="grade-button" onclick="showGrades()" style="display: none;">View Grades</button>
+        <p id="timer">Time Left: <span id="countdown"></span></p>
+    </div>
+
+    <!-- Main Js File -->
+    <script src='js/main.js'></script>
+</body>
+
+</html>
